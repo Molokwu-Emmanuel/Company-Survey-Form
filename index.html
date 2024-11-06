@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Molecule Inc. Survey Form</h1>
+    <p id="description">We appreciate you taking the time to assist us in making the platform better.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name: 
+          <input type="text" id="name" name="name" placeholder="John Doe" required>
+        </label>
+        <label for="email" id="email-label">Email: 
+          <input type="email" id="email" name="email" placeholder="example@example.com" required>
+        </label>
+        <label for="number" id="number-label">Age: 
+          <input type="number" id="number" name="age" min="18" max="120" placeholder="20">
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Would you consider working for us?</legend>
+        <label>
+          <input type="radio" name="work" value="definitely"> Definitely
+        </label>
+        <label>
+          <input type="radio" name="work" value="not sure" checked> Not Sure
+        </label>
+        <label>
+          <input type="radio" name="work" value="no"> No
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <label for="dropdown">What do you like about our company?
+          <select id="dropdown" name="feedback">
+            <option value="">(select)</option>
+            <option value="innovation">Innovation</option>
+            <option value="team">Team Culture</option>
+            <option value="benefits">Employee Benefits</option>
+          </select>
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Which do you specialize in?</legend>
+        <label>
+          <input type="checkbox" name="specialization" value="front-end"> Front-End
+        </label>
+        <label>
+          <input type="checkbox" name="specialization" value="back-end"> Back-End
+        </label>
+        <label>
+          <input type="checkbox" name="specialization" value="full-stack"> Full Stack
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <label for="self">Tell us about yourself: 
+          <textarea id="self" name="self" rows="5" cols="30" placeholder="Share your thoughts here..."></textarea>
+        </label>
+      </fieldset>
+      
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>
