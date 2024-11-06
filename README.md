@@ -1,3 +1,3 @@
 # Company-Survey-Form
-## Building a personal Survey Form
-### A freeCodeCamp Certification project
+### Building a personal Survey Form
+#### A freeCodeCamp Certification project
