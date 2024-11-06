@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(23,24,56);
+  font-family: Tahoma;
+  font-size: 16px;
+  color: white;
+}
+#title, #description {
+  text-align: center;
+}
+#survey-form {
+  max-width:500px;
+  min-width: 300px;
+  margin: 2em auto;
+}
+label {
+  display: block;
+  padding: 5px;
+}
+#dropdown {
+  margin: 0 0 0 5px;
+}
+textarea {
+  display: block;
+  margin: 10px 0 0 0;
+  width: 100%
+}
+fieldset {
+  border: none;
+}
+#name, #email, #number {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 3px auto;
+}
+#submit {
+  width: 100%;
+  font-family: tahoma;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+body {
+  background-color: rgb(23,24,56);
+  font-family: Tahoma;
+  font-size: 16px;
+  color: white;
+}
+#title, #description {
+  text-align: center;
+}
+#survey-form {
+  max-width:500px;
+  min-width: 300px;
+  margin: 2em auto;
+}
+label {
+  display: block;
+  padding: 5px;
+}
+#dropdown {
+  margin: 0 0 0 5px;
+}
+textarea {
+  display: block;
+  margin: 10px 0 0 0;
+  width: 100%
+}
+fieldset {
+  border: none;
+}
+#name, #email, #number {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 3px auto;
+}
+#submit {
+  width: 100%;
+  font-family: tahoma;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(90, 130, 255);
+}
